@@ -73,7 +73,7 @@ Futkeeper ofrece una experiencia **automática y justa**. Calcula puntuaciones e
 ## Figura 1. Comparativa de competidores
 
 > ## Figura 1. Comparativa de competidores
-![Comparativa de Competidores](./assets/figura-1-comparativa-competidores.png "Figura 1. Comparativa de competidores")
+![Comparativa de Competidores](Assets/diagrama-uso-futkeeper.png "Figura 1. Comparativa de competidores")
 
 > *Figura 1. Comparativa de competidores.*
 
