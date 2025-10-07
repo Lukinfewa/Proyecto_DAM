@@ -224,7 +224,7 @@ La automatización de la puntuación es una de las principales ventajas de Futke
 ## Diagrama de uso Futkeeper
 
 > **Placeholder de diagrama general**
-> ![Diagrama de Uso - Futkeeper](./assets/diagrama-uso-futkeeper.png)
+> ![Diagrama de Uso - Futkeeper](Assets/diagrama-uso-futkeeper.png)
 > *Diagrama general de casos de uso y relaciones principales.*
 
 ---
