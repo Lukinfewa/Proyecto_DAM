@@ -238,14 +238,6 @@ La automatización de la puntuación es una de las principales ventajas de Futke
 * Fernández, R. (18 de mayo de 2021). Desafíos en el sistema de salud durante la pandemia global. *La Jornada*. [https://www.jornada.com.mx/2021/05/18/salud/desafios-sistema-pandemia-2021](https://www.jornada.com.mx/2021/05/18/salud/desafios-sistema-pandemia-2021)
 * Pérez, A. (8 de noviembre de 2019). La tecnología como motor del cambio en la educación superior. *ABC*. [https://abc.es/tecnologia/educacion-superior-tecnologia-cambio-2019.html](https://abc.es/tecnologia/educacion-superior-tecnologia-cambio-2019.html)
 
----
-
-> **Notas de maquetación para el repositorio**
->
-> * Coloca las imágenes en `./assets/` con los nombres usados arriba o ajusta las rutas.
-> * Mantén la numeración y títulos tal como están para facilitar la lectura académica y el seguimiento de la normativa APA en la sección de referencias.
-> * Si generas los diagramas con una herramienta (p. ej., draw.io), exporta a PNG/SVG y reemplaza los *placeholders*.
-
 
 
 
