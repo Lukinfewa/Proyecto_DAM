@@ -73,7 +73,7 @@ Futkeeper ofrece una experiencia **automática y justa**. Calcula puntuaciones e
 ## Figura 1. Comparativa de competidores
 
 > ## Figura 1. Comparativa de competidores
-![Comparativa de Competidores](Assets/diagrama-uso-futkeeper.png "Figura 1. Comparativa de competidores")
+![Comparativa de Competidores](Assets/figura-1-comparativa-competidores.png "Figura 1. Comparativa de competidores")
 
 > *Figura 1. Comparativa de competidores.*
 
@@ -128,7 +128,7 @@ La automatización de la puntuación es una de las principales ventajas de Futke
   * Ingresar datos personales
   * Confirmar correo electrónico
   * Crear una contraseña
-* **Diagrama:** ![Diagrama - Registro de Usuario](./assets/uc-registro-usuario.png)
+
 
 #### 2) Inicio de sesión
 
@@ -138,7 +138,7 @@ La automatización de la puntuación es una de las principales ventajas de Futke
   * Introducir credenciales
   * Validación en la base de datos
   * Acceso a la aplicación
-* **Diagrama:** ![Diagrama - Inicio de Sesión](./assets/uc-inicio-sesion.png)
+
 
 #### 3) Configuración de perfil
 
@@ -148,7 +148,7 @@ La automatización de la puntuación es una de las principales ventajas de Futke
   * Modificar datos personales
   * Agregar foto de perfil
   * Guardar cambios
-* **Diagrama:** ![Diagrama - Configuración de Perfil](./assets/uc-configuracion-perfil.png)
+
 
 #### 4) Consulta de estadísticas de jugadores
 
@@ -158,7 +158,7 @@ La automatización de la puntuación es una de las principales ventajas de Futke
   * Buscar jugadores
   * Visualizar estadísticas
   * Comparar jugadores
-* **Diagrama:** ![Diagrama - Consulta de Estadísticas](./assets/uc-consulta-estadisticas.png)
+
 
 #### 5) Creación de liga privada
 
@@ -168,7 +168,7 @@ La automatización de la puntuación es una de las principales ventajas de Futke
   * Introducir nombre de la liga
   * Configurar reglas
   * Invitar a otros jugadores
-* **Diagrama:** ![Diagrama - Creación de Liga](./assets/uc-creacion-liga.png)
+
 
 #### 6) Unirse a una liga
 
@@ -178,7 +178,7 @@ La automatización de la puntuación es una de las principales ventajas de Futke
   * Introducir código de invitación
   * Confirmar adhesión
   * Acceder a configuración de la liga
-* **Diagrama:** ![Diagrama - Unirse a Liga](./assets/uc-unirse-liga.png)
+
 
 #### 7) Selección de jugadores para el equipo
 
@@ -188,7 +188,7 @@ La automatización de la puntuación es una de las principales ventajas de Futke
   * Elegir jugadores disponibles
   * Confirmar alineación
   * Guardar cambios
-* **Diagrama:** ![Diagrama - Selección de Jugadores](./assets/uc-seleccion-jugadores.png)
+
 
 #### 8) Visualización de puntuaciones en tiempo real
 
@@ -198,7 +198,7 @@ La automatización de la puntuación es una de las principales ventajas de Futke
   * Consultar puntuaciones
   * Filtrar por jugadores o ligas
   * Comparar rendimiento
-* **Diagrama:** ![Diagrama - Puntuaciones en Tiempo Real](./assets/uc-puntuaciones-tiempo-real.png)
+
 
 #### 9) Notificaciones de eventos importantes
 
@@ -208,7 +208,7 @@ La automatización de la puntuación es una de las principales ventajas de Futke
   * Recibir alertas de rendimiento
   * Configurar notificaciones
   * Visualizar historial de eventos
-* **Diagrama:** ![Diagrama - Notificaciones](./assets/uc-notificaciones.png)
+
 
 #### 10) Cierre de sesión
 
@@ -217,7 +217,7 @@ La automatización de la puntuación es una de las principales ventajas de Futke
 
   * Seleccionar opción de cierre de sesión
   * Confirmar acción
-* **Diagrama:** ![Diagrama - Cierre de Sesión](./assets/uc-cierre-sesion.png)
+
 
 ---
 
