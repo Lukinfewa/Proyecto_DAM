@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Futkeeper|Equipos</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link rel="icon" type="image/png" href="./assets/img/futkeeper-removebg-preview.png">
+
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#fac638",
+              "background-light": "#f8f8f5",
+              "background-dark": "#231e0f",
+            },
+            fontFamily: {
+              "display": ["Space Grotesk", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark">
+<div class="relative flex min-h-screen w-full flex-col">
+<div class="flex flex-1 justify-center py-5 px-4 sm:px-10 md:px-20 lg:px-40">
+<div class="flex w-full max-w-5xl flex-col gap-8">
+<!-- TopNavBar -->
+<header class="flex items-center justify-between whitespace-nowrap px-4 sm:px-10 py-3">
+<div class="flex items-center gap-4 text-gray-800 dark:text-white">
+<div class="size-8 text-primary">
+  
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+
+</svg>
+</div>
+<h2 class="text-gray-800 dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">Futkeeper</h2>
+</div>
+<nav class="hidden sm:flex items-center gap-6">
+<a class="text-gray-500 dark:text-[#90adcb] hover:text-primary dark:hover:text-primary" href="index.html">Inicio</a>
+<a class="text-gray-500 dark:text-[#90adcb] hover:text-primary dark:hover:text-primary" href="equipos.html">Equipos</a>
+<a class="text-gray-500 dark:text-[#90adcb] hover:text-primary dark:hover:text-primary" href="noticias.html">Noticias</a>
+</nav>
+</header>
+<main class="flex flex-col gap-6">
+<!-- PageHeading & SearchBar -->
+<div class="flex flex-wrap items-center justify-between gap-4 p-4">
+<p class="text-white text-4xl font-black leading-tight tracking-[-0.033em]">Equipos - La Liga 2025/2026</p>
+<div class="w-full sm:w-auto sm:min-w-64">
+<label class="flex flex-col min-w-40 h-12 w-full">
+<div class="flex w-full flex-1 items-stretch rounded-lg h-full bg-white/5 border border-white/10 focus-within:ring-2 focus-within:ring-primary transition-all">
+<div class="text-white/50 flex items-center justify-center pl-4">
+<span class="material-symbols-outlined"></span>
+</div>
+<input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-r-lg text-white focus:outline-0 focus:ring-0 border-none bg-transparent h-full placeholder:text-white/50 px-4 pl-2 text-base font-normal leading-normal" placeholder="Buscar equipo..." value=""/>
+</div>
+</label>
+</div>
+</div>
+<!-- ImageGrid -->
+<div class="grid grid-cols-[repeat(auto-fit,minmax(150px,1fr))] gap-6 p-4">
+<a class="group flex flex-col gap-3 pb-3 text-center items-center cursor-pointer" href="#">
+<div class="w-32 h-32 p-4 bg-white/5 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-white/10 group-hover:ring-2 group-hover:ring-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-contain transition-transform duration-300 group-hover:scale-110" data-alt="Real Madrid C.F. logo" style='background-image: url("./assets/img/Real_Madrid_CF.svg");'></div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Real Madrid</p>
+<p class="text-white/60 text-sm font-normal leading-normal">Madrid</p>
+</div>
+</a>
+<a class="group flex flex-col gap-3 pb-3 text-center items-center cursor-pointer" href="#">
+<div class="w-32 h-32 p-4 bg-white/5 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-white/10 group-hover:ring-2 group-hover:ring-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-contain transition-transform duration-300 group-hover:scale-110" data-alt="F.C. Barcelona logo" style='background-image: url("./assets/img/Barcelona.png");'></div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">FC Barcelona</p>
+<p class="text-white/60 text-sm font-normal leading-normal">Barcelona</p>
+</div>
+</a>
+<a class="group flex flex-col gap-3 pb-3 text-center items-center cursor-pointer" href="#">
+<div class="w-32 h-32 p-4 bg-white/5 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-white/10 group-hover:ring-2 group-hover:ring-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-contain transition-transform duration-300 group-hover:scale-110" data-alt="Atlético de Madrid logo" style='background-image: url("./assets/img/ATM.png");'></div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Atlético de Madrid</p>
+<p class="text-white/60 text-sm font-normal leading-normal">Madrid</p>
+</div>
+</a>
+<a class="group flex flex-col gap-3 pb-3 text-center items-center cursor-pointer" href="#">
+<div class="w-32 h-32 p-4 bg-white/5 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-white/10 group-hover:ring-2 group-hover:ring-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-contain transition-transform duration-300 group-hover:scale-110" data-alt="Girona FC logo" style='background-image: url("./assets/img/girona-fc-logo-5.png");'></div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Girona FC</p>
+<p class="text-white/60 text-sm font-normal leading-normal">Girona</p>
+</div>
+</a>
+<a class="group flex flex-col gap-3 pb-3 text-center items-center cursor-pointer" href="#">
+<div class="w-32 h-32 p-4 bg-white/5 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-white/10 group-hover:ring-2 group-hover:ring-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-contain transition-transform duration-300 group-hover:scale-110" data-alt="Athletic Club logo" style='background-image: url("./assets/img/athletic-bilbao-logo-0.png");'></div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Athletic Club</p>
+<p class="text-white/60 text-sm font-normal leading-normal">Bilbao</p>
+</div>
+</a>
+<a class="group flex flex-col gap-3 pb-3 text-center items-center cursor-pointer" href="#">
+<div class="w-32 h-32 p-4 bg-white/5 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-white/10 group-hover:ring-2 group-hover:ring-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-contain transition-transform duration-300 group-hover:scale-110" data-alt="Real Sociedad logo" style='background-image: url("./assets/img/Real_Sociedad_de_Futbol_logo.png");'></div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Real Sociedad</p>
+<p class="text-white/60 text-sm font-normal leading-normal">San Sebastián</p>
+</div>
+</a>
+<a class="group flex flex-col gap-3 pb-3 text-center items-center cursor-pointer" href="#">
+<div class="w-32 h-32 p-4 bg-white/5 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-white/10 group-hover:ring-2 group-hover:ring-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-contain transition-transform duration-300 group-hover:scale-110" data-alt="Real Betis logo" style='background-image: url("./assets/img/bETIS.png");'></div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Real Betis</p>
+<p class="text-white/60 text-sm font-normal leading-normal">Sevilla</p>
+</div>
+</a>
+<a class="group flex flex-col gap-3 pb-3 text-center items-center cursor-pointer" href="#">
+<div class="w-32 h-32 p-4 bg-white/5 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-white/10 group-hover:ring-2 group-hover:ring-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-contain transition-transform duration-300 group-hover:scale-110" data-alt="Valencia CF logo" style='background-image: url("./assets/img/valencia-cf-logo-escudo-0.png");'></div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Valencia CF</p>
+<p class="text-white/60 text-sm font-normal leading-normal">Valencia</p>
+</div>
+</a>
+<a class="group flex flex-col gap-3 pb-3 text-center items-center cursor-pointer" href="#">
+<div class="w-32 h-32 p-4 bg-white/5 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-white/10 group-hover:ring-2 group-hover:ring-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-contain transition-transform duration-300 group-hover:scale-110" data-alt="Villarreal CF logo" style='background-image: url("./assets/img/villarreal.png");'></div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Villarreal CF</p>
+<p class="text-white/60 text-sm font-normal leading-normal">Villarreal</p>
+</div>
+</a>
+<a class="group flex flex-col gap-3 pb-3 text-center items-center cursor-pointer" href="#">
+<div class="w-32 h-32 p-4 bg-white/5 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-white/10 group-hover:ring-2 group-hover:ring-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-contain transition-transform duration-300 group-hover:scale-110" data-alt="Getafe CF logo" style='background-image: url("./assets/img/Getafe_CF_Logo.png");'></div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Getafe CF</p>
+<p class="text-white/60 text-sm font-normal leading-normal">Getafe</p>
+</div>
+</a>
+<a class="group flex flex-col gap-3 pb-3 text-center items-center cursor-pointer" href="#">
+<div class="w-32 h-32 p-4 bg-white/5 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-white/10 group-hover:ring-2 group-hover:ring-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-contain transition-transform duration-300 group-hover:scale-110" data-alt="Deportivo Alavés logo" style='background-image: url("./assets/img/Deportivo_Alaves_logo_\(2020\).svg.png");'></div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Deportivo Alavés</p>
+<p class="text-white/60 text-sm font-normal leading-normal">Vitoria-Gasteiz</p>
+</div>
+</a>
+<a class="group flex flex-col gap-3 pb-3 text-center items-center cursor-pointer" href="#">
+<div class="w-32 h-32 p-4 bg-white/5 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-white/10 group-hover:ring-2 group-hover:ring-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-contain transition-transform duration-300 group-hover:scale-110" data-alt="Sevilla FC logo" style='background-image: url("./assets/img/sevilla-fc-logo.png");'></div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Sevilla FC</p>
+<p class="text-white/60 text-sm font-normal leading-normal">Sevilla</p>
+</div>
+</a>
+<a class="group flex flex-col gap-3 pb-3 text-center items-center cursor-pointer" href="#">
+<div class="w-32 h-32 p-4 bg-white/5 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-white/10 group-hover:ring-2 group-hover:ring-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-contain transition-transform duration-300 group-hover:scale-110" data-alt="CA Osasuna logo" style='background-image: url("./assets/img/osasuna-logo-1.png");'></div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">CA Osasuna</p>
+<p class="text-white/60 text-sm font-normal leading-normal">Pamplona</p>
+</div>
+</a>
+<a class="group flex flex-col gap-3 pb-3 text-center items-center cursor-pointer" href="#">
+<div class="w-32 h-32 p-4 bg-white/5 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-white/10 group-hover:ring-2 group-hover:ring-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-contain transition-transform duration-300 group-hover:scale-110" data-alt="Real Oviedo" style='background-image: url("./assets/img/Real_Oviedo_logo.svg.png");'></div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Real Oviedo</p>
+<p class="text-white/60 text-sm font-normal leading-normal">Real Oviedo</p>
+</div>
+</a>
+<a class="group flex flex-col gap-3 pb-3 text-center items-center cursor-pointer" href="#">
+<div class="w-32 h-32 p-4 bg-white/5 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-white/10 group-hover:ring-2 group-hover:ring-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-contain transition-transform duration-300 group-hover:scale-110" data-alt="Celta de Vigo logo" style='background-image: url("./assets/img/CELTA.png");'></div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Celta de Vigo</p>
+<p class="text-white/60 text-sm font-normal leading-normal">Vigo</p>
+</div>
+</a>
+<a class="group flex flex-col gap-3 pb-3 text-center items-center cursor-pointer" href="#">
+<div class="w-32 h-32 p-4 bg-white/5 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-white/10 group-hover:ring-2 group-hover:ring-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-contain transition-transform duration-300 group-hover:scale-110" data-alt="Rayo Vallecano logo" style='background-image: url("./assets/img/Rayo_Vallecano_logo.svg.png");'></div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Rayo Vallecano</p>
+<p class="text-white/60 text-sm font-normal leading-normal">Madrid</p>
+</div>
+</a>
+<a class="group flex flex-col gap-3 pb-3 text-center items-center cursor-pointer" href="#">
+<div class="w-32 h-32 p-4 bg-white/5 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-white/10 group-hover:ring-2 group-hover:ring-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-contain transition-transform duration-300 group-hover:scale-110" data-alt="RCD Mallorca logo" style='background-image: url("./assets/img/RCD_Mallorca.png");'></div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">RCD Mallorca</p>
+<p class="text-white/60 text-sm font-normal leading-normal">Palma</p>
+</div>
+</a>
+<a class="group flex flex-col gap-3 pb-3 text-center items-center cursor-pointer" href="#">
+<div class="w-32 h-32 p-4 bg-white/5 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-white/10 group-hover:ring-2 group-hover:ring-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-contain transition-transform duration-300 group-hover:scale-110" data-alt="Cádiz CF logo" style='background-image: url("./assets/img/levante-ud-logo-escudo-1.png");'></div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Levante UD</p>
+<p class="text-white/60 text-sm font-normal leading-normal">Levante</p>
+</div>
+</a>
+<a class="group flex flex-col gap-3 pb-3 text-center items-center cursor-pointer" href="#">
+<div class="w-32 h-32 p-4 bg-white/5 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-white/10 group-hover:ring-2 group-hover:ring-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-contain transition-transform duration-300 group-hover:scale-110" data-alt="UD Almería logo" style='background-image: url("./assets/img/Elche_CF_logo.svg.png");'></div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Elche CF</p>
+<p class="text-white/60 text-sm font-normal leading-normal">Elche</p>
+</div>
+</a>
+<a class="group flex flex-col gap-3 pb-3 text-center items-center cursor-pointer" href="#">
+<div class="w-32 h-32 p-4 bg-white/5 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-white/10 group-hover:ring-2 group-hover:ring-primary">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-contain transition-transform duration-300 group-hover:scale-110" data-alt="Granada CF logo" style='background-image: url("./assets/img/rcd-espanyol-logo-escudo-1.png");'></div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">Rcd Espanyol</p>
+<p class="text-white/60 text-sm font-normal leading-normal">Barcelona</p>
+</div>
+</a>
+</div>
+<footer class="flex flex-col gap-6 px-5 py-10 mt-10 text-center @container border-t border-gray-200 dark:border-t-[#223649]">
+<div class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
+<a class="text-gray-500 dark:text-[#90adcb] text-base font-normal leading-normal min-w-40 hover:text-primary dark:hover:text-primary" href="#">Sobre nosotros</a>
+<a class="text-gray-500 dark:text-[#90adcb] text-base font-normal leading-normal min-w-40 hover:text-primary dark:hover:text-primary" href="#">Contacto</a>
+</div>
+<p class="text-gray-500 dark:text-[#90adcb] text-sm font-normal leading-normal">© 2025 Futkeeper. Todos los derechos reservados.</p>
+</footer>
+</main>
+</div>
+</div>
+</div>
+</body></html>
